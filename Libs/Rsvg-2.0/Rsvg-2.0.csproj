@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>GirCore.Secret-1</PackageId>
+    <RootNamespace>Secret</RootNamespace>
+    <Description>C# bindings for librsvg.</Description>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>$(NoWarn);CS0108</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GirCore.Cairo-1.0" />
+    <PackageReference Include="GirCore.GdkPixbuf-2.0" />
+    <PackageReference Include="GirCore.GLib-2.0" />
+    <PackageReference Include="GirCore.Gio-2.0" />
+    <PackageReference Include="GirCore.GObject-2.0" />
+  </ItemGroup>
+</Project>

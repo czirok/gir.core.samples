@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="GirCore.Adw-1" Version="0.6.3" />
+    <PackageVersion Include="GirCore.Cairo-1.0" Version="0.6.3" />
+    <PackageVersion Include="GirCore.Gdk-4.0" Version="0.6.3" />
+    <PackageVersion Include="GirCore.GdkPixbuf-2.0" Version="0.6.3" />
+    <PackageVersion Include="GirCore.Glib-2.0" Version="0.6.3" />
+    <PackageVersion Include="GirCore.Gtk-4.0" Version="0.6.3" />
+    <PackageVersion Include="GirCore.GObject-2.0" Version="0.6.3" />
+    <PackageVersion Include="GirCore.Gio-2.0" Version="0.6.3" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.4" />
+    <PackageVersion Include="Microsoft.Extensions.FileProviders.Abstractions" Version="9.0.4" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="9.0.4" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="9.0.4" />
+  </ItemGroup>
+</Project>
