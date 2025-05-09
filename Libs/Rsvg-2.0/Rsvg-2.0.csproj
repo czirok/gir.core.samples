@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <PackageId>GirCore.Secret-1</PackageId>
-    <RootNamespace>Secret</RootNamespace>
+    <PackageId>GirCore.Rsvg-2.0</PackageId>
+    <RootNamespace>Rsvg</RootNamespace>
     <Description>C# bindings for librsvg.</Description>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>$(NoWarn);CS0108</NoWarn>
