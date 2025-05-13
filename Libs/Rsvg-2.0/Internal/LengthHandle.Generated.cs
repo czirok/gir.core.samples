@@ -17,20 +17,20 @@ public abstract class LengthHandle : SafeHandle
 
     protected LengthHandle(bool ownsHandle) : base(IntPtr.Zero, ownsHandle) { }
 
-    public double GetLength()
+    public double GetLength_()
 {
     if (IsClosed || IsInvalid)
         throw new InvalidOperationException("Handle is closed or invalid");
 
-    return Marshal.PtrToStructure<LengthData>(handle).Length;
+    return Marshal.PtrToStructure<LengthData>(handle).Length_;
 }
-public void SetLength(double value)
+public void SetLength_(double value)
 {
     if (IsClosed || IsInvalid)
         throw new InvalidOperationException("Handle is closed or invalid");
 
     var data = Marshal.PtrToStructure<LengthData>(handle);
-    data.Length = value;
+    data.Length_ = value;
     Marshal.StructureToPtr(data, handle, false);
 }
 

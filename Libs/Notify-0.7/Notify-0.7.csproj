@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>GirCore.Notify-0.7</PackageId>
+    <RootNamespace>Notify07</RootNamespace>
+    <Description>C# bindings for libnotify.</Description>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>$(NoWarn);CS0108</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GirCore.GdkPixbuf-2.0" />
+    <PackageReference Include="GirCore.GLib-2.0" />
+  </ItemGroup>
+</Project>

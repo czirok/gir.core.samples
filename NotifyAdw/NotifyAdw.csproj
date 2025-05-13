@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Libs\Rsvg-2.0\Rsvg-2.0.csproj" />
+    <ProjectReference Include="..\Libs\Notify-0.7\Notify-0.7.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GirCore.Adw-1" />
+    <PackageReference Include="GirCore.Gio-2.0" />
+    <PackageReference Include="GirCore.Gtk-4.0" />
+  </ItemGroup>
+
+</Project>
